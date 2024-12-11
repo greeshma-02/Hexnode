@@ -10,7 +10,7 @@ const Carousel = ({ contentItems, isImageCarousel = false, isArrows = false }) =
         slidesToScroll: 1,
         arrows: isArrows,
         dots: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         pauseOnHover: true,
         adaptiveHeight: true,  // Adjust the height dynamically to the content
