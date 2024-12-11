@@ -1,0 +1,67 @@
+.possibilities-section {
+    height: 80vh;
+    margin: 5% 0%;
+}
+
+.possibilities-header {
+    margin: 40px 0px;
+    font-size: 20px;
+    font-weight: 200 !important;
+}
+
+.possibilities-content {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.possibilities-image img {
+    height: 70%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .possibilities-section {
+        height: auto;
+        margin: 30% 0%;
+        padding-bottom: 20px;
+    }
+
+    .possibilities-header {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .possibilities-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .possibilities-image {
+        flex: none;
+        width: 100%;
+    }
+
+    .possibilities-image img {
+        height: 200px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .possibilities-section {
+        height: auto;
+        margin: 40% 0%;
+        padding-bottom: 20px;
+    }
+
+    .possibilities-header {
+        font-size: 16px;
+    }
+
+    .possibilities-image img {
+        height: 50%;
+    }
+}

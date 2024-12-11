@@ -1,0 +1,24 @@
+.platform-image-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+    margin: 60px 0px 60px 0px;
+}
+
+.platform-image-item {
+    flex: 1 1 200px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.platform-image-item img {
+    object-fit: contain;
+    width: 80%;
+    height: auto;
+    padding: 8px;
+}
+
+.platform-image-item img:hover {
+    transform: translateY(-5px);
+}

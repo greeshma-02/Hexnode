@@ -1,0 +1,140 @@
+.selection-section {
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.tab {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px #ccc;
+    cursor: pointer;
+    font-size: 14px;
+    flex-shrink: 0;
+    margin: 0;
+    border-right: none;
+    color: rgba(2, 10, 25, .5);
+}
+
+.tab:last-child {
+    border-right: 1px solid #ccc;
+}
+
+.tab.active {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.text-section {
+    flex: 1;
+}
+
+.text-section h2 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.text-section ul li {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.text-section ul li span {
+    color: green;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.image-section {
+    flex: 1;
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .selection-section {
+        height: 500px;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .text-section {
+        text-align: center;
+    }
+
+    .tabs {
+        justify-content: space-between;
+        gap: 5px;
+    }
+
+    .tab {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .image-section img {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .selection-section {
+        height: 600px;
+    }
+
+    .text-section h2 {
+        font-size: 16px;
+    }
+
+    .text-section ul li {
+        font-size: 12px;
+    }
+
+    .image-section img {
+        max-height: 150px;
+    }
+
+    .tabs {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .tab {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+}

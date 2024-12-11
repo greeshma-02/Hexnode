@@ -1,0 +1,12 @@
+/* Positioning the chat icon at the bottom-right corner */
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chat-icon img {
+    width: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-img img {
+    height: 20vh !important;
+    width: 30vw !important;
+}

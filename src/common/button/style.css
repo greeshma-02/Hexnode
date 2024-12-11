@@ -1,0 +1,11 @@
+.actn-button {
+    width: unset;
+    height: unset;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #bb022a;
+    color: azure;
+    border-radius: 2px;
+    border: none;
+    font-weight: 500;
+}
