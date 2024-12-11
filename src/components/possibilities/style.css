@@ -32,6 +32,7 @@
     .possibilities-header {
         font-size: 18px;
         margin: 20px 0;
+        padding: 5%;
     }
 
     .possibilities-content {
@@ -56,9 +57,11 @@
         margin: 40% 0%;
         padding-bottom: 20px;
     }
-
+    
     .possibilities-header {
-        font-size: 16px;
+        font-size: 15px;
+            margin-top: 50%;
+            padding: 30% 0 5% 0;
     }
 
     .possibilities-image img {
